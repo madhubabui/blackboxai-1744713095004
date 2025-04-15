@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Loading Overlay -->
+    <dimen name="loading_overlay_elevation">8dp</dimen>
+
+    <!-- Common Spacing -->
+    <dimen name="spacing_xxsmall">2dp</dimen>
+    <dimen name="spacing_xsmall">4dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+    <dimen name="spacing_xxlarge">48dp</dimen>
+
+    <!-- Common Sizes -->
+    <dimen name="icon_size_small">16dp</dimen>
+    <dimen name="icon_size_medium">24dp</dimen>
+    <dimen name="icon_size_large">32dp</dimen>
+    <dimen name="icon_size_xlarge">48dp</dimen>
+
+    <!-- Corner Radius -->
+    <dimen name="corner_radius_small">4dp</dimen>
+    <dimen name="corner_radius_medium">8dp</dimen>
+    <dimen name="corner_radius_large">16dp</dimen>
+    <dimen name="corner_radius_xlarge">24dp</dimen>
+    <dimen name="corner_radius_pill">28dp</dimen>
+
+    <!-- Elevation -->
+    <dimen name="elevation_none">0dp</dimen>
+    <dimen name="elevation_small">2dp</dimen>
+    <dimen name="elevation_medium">4dp</dimen>
+    <dimen name="elevation_large">8dp</dimen>
+    <dimen name="elevation_xlarge">12dp</dimen>
+
+    <!-- Touch Targets -->
+    <dimen name="min_touch_target">48dp</dimen>
+    <dimen name="min_touch_target_padding">12dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="text_size_caption">12sp</dimen>
+    <dimen name="text_size_body">14sp</dimen>
+    <dimen name="text_size_subheading">16sp</dimen>
+    <dimen name="text_size_title">20sp</dimen>
+    <dimen name="text_size_headline">24sp</dimen>
+
+    <!-- Component Specific -->
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="bottom_nav_height">56dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="card_margin">8dp</dimen>
+    <dimen name="list_item_height">72dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+
+    <!-- Chip -->
+    <dimen name="chip_height">32dp</dimen>
+    <dimen name="chip_min_height">32dp</dimen>
+    <dimen name="chip_padding_horizontal">12dp</dimen>
+    <dimen name="chip_padding_vertical">6dp</dimen>
+    <dimen name="chip_icon_size">16dp</dimen>
+    <dimen name="chip_icon_padding">8dp</dimen>
+    <dimen name="chip_corner_radius">16dp</dimen>
+    <dimen name="chip_selected_stroke_width">2dp</dimen>
+    <dimen name="chip_spacing">8dp</dimen>
+    <dimen name="chip_group_padding">16dp</dimen>
+
+    <!-- Spacing -->
+    <dimen name="spacing_xsmall">2dp</dimen>
+    <dimen name="spacing_small">4dp</dimen>
+    <dimen name="spacing_medium">8dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="spacing_xlarge">24dp</dimen>
+    <dimen name="spacing_xxlarge">32dp</dimen>
+
+    <!-- Rating Bar -->
+    <dimen name="rating_star_size">24dp</dimen>
+    <dimen name="rating_star_padding">@dimen/spacing_xsmall</dimen>
+    <dimen name="rating_star_size_small">16dp</dimen>
+    <dimen name="rating_star_size_large">32dp</dimen>
+    <dimen name="rating_text_margin">@dimen/spacing_medium</dimen>
+    <dimen name="rating_bar_padding">12dp</dimen>
+    <dimen name="rating_bar_min_height">36dp</dimen>
+
+    <!-- Segmented Control -->
+    <dimen name="segment_height">40dp</dimen>
+    <dimen name="segment_margin">@dimen/spacing_large</dimen>
+    <dimen name="segment_padding">12dp</dimen>
+    <dimen name="segment_corner_radius">8dp</dimen>
+    <dimen name="segment_stroke_width">1dp</dimen>
+    <dimen name="segment_text_size">14sp</dimen>
+    <dimen name="segment_icon_size">18dp</dimen>
+    <dimen name="segment_icon_padding">@dimen/spacing_small</dimen>
+
+    <!-- Badge -->
+    <dimen name="badge_min_width">20dp</dimen>
+    <dimen name="badge_min_height">20dp</dimen>
+    <dimen name="badge_padding">@dimen/spacing_small</dimen>
+    <dimen name="badge_text_size">12sp</dimen>
+    <dimen name="badge_corner_radius">10dp</dimen>
+    <dimen name="badge_stroke_width">1dp</dimen>
+</resources>
