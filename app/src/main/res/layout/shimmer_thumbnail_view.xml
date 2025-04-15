@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:parentTag="android.widget.FrameLayout">
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:shimmer_auto_start="true"
+        app:shimmer_base_alpha="0.3"
+        app:shimmer_highlight_alpha="1.0"
+        app:shimmer_duration="1000"
+        app:shimmer_repeat_mode="restart"
+        app:shimmer_repeat_count="-1">
+
+        <!-- Shimmer Content -->
+        <View
+            android:id="@+id/shimmerContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/shimmer_color" />
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <!-- Optional Overlay for Video Duration -->
+    <FrameLayout
+        android:id="@+id/durationContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="8dp"
+        android:background="@drawable/bg_duration"
+        android:padding="4dp"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="16dp"
+            android:background="@color/shimmer_color" />
+
+    </FrameLayout>
+
+    <!-- Optional Overlay for Play Button -->
+    <View
+        android:id="@+id/playButtonShimmer"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_play_button"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <!-- Optional Overlay for Selection -->
+    <View
+        android:id="@+id/selectionShimmer"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="end|top"
+        android:layout_margin="8dp"
+        android:background="@drawable/ic_check_circle"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+</merge>
