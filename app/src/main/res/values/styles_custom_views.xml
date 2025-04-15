@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Rating Bar Styles -->
+    <style name="Widget.App.RatingBar" parent="Widget.MaterialComponents.RatingBar.Small">
+        <item name="android:progressTint">@color/rating_star_filled</item>
+        <item name="android:progressBackgroundTint">@color/rating_star_empty</item>
+        <item name="android:minHeight">@dimen/rating_star_size</item>
+        <item name="android:maxHeight">@dimen/rating_star_size</item>
+    </style>
+
+    <style name="Widget.App.RatingBar.Text">
+        <item name="android:textAppearance">?attr/textAppearanceCaption</item>
+        <item name="android:textColor">@color/rating_text_color</item>
+        <item name="android:layout_marginStart">@dimen/rating_text_margin</item>
+    </style>
+
+    <!-- Segmented Control Styles -->
+    <style name="Widget.App.SegmentedControl" parent="Widget.MaterialComponents.MaterialButtonToggleGroup">
+        <item name="android:layout_margin">@dimen/segment_margin</item>
+        <item name="singleSelection">true</item>
+        <item name="selectionRequired">true</item>
+        <item name="cornerRadius">@dimen/segment_corner_radius</item>
+    </style>
+
+    <style name="Widget.App.SegmentedControl.Button" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_height">@dimen/segment_height</item>
+        <item name="android:padding">@dimen/segment_padding</item>
+        <item name="android:textAppearance">?attr/textAppearanceButton</item>
+        <item name="strokeColor">@color/segment_stroke</item>
+        <item name="strokeWidth">@dimen/segment_stroke_width</item>
+        <item name="rippleColor">@color/ripple_color</item>
+    </style>
+
+    <!-- Chip Styles -->
+    <style name="Widget.App.Chip" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="android:layout_height">@dimen/chip_height</item>
+        <item name="chipMinHeight">@dimen/chip_min_height</item>
+        <item name="chipBackgroundColor">@color/chip_background</item>
+        <item name="chipStrokeColor">@color/chip_stroke</item>
+        <item name="chipStrokeWidth">@dimen/chip_selected_stroke_width</item>
+        <item name="closeIconTint">@color/chip_close_icon_tint</item>
+        <item name="rippleColor">@color/ripple_color</item>
+    </style>
+
+    <!-- Badge Styles -->
+    <style name="Widget.App.Badge" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">@dimen/badge_min_width</item>
+        <item name="android:minHeight">@dimen/badge_min_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">?attr/textAppearanceCaption</item>
+        <item name="android:textColor">@color/badge_text</item>
+        <item name="android:background">@drawable/bg_status_dot</item>
+    </style>
+
+    <!-- Common Text Styles -->
+    <style name="TextAppearance.App.Caption.Secondary" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.App.Button.Small" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textSize">12sp</item>
+    </style>
+</resources>
