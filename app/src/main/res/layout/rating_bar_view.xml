@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:parentTag="android.widget.FrameLayout">
+
+    <!-- Rating Container -->
+    <LinearLayout
+        android:id="@+id/ratingContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <!-- Preview Stars -->
+        <ImageView
+            android:layout_width="@dimen/rating_star_size"
+            android:layout_height="@dimen/rating_star_size"
+            android:layout_marginEnd="@dimen/rating_star_spacing"
+            android:src="@drawable/ic_star_filled"
+            app:tint="@color/rating_star"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_width="@dimen/rating_star_size"
+            android:layout_height="@dimen/rating_star_size"
+            android:layout_marginEnd="@dimen/rating_star_spacing"
+            android:src="@drawable/ic_star_filled"
+            app:tint="@color/rating_star"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_width="@dimen/rating_star_size"
+            android:layout_height="@dimen/rating_star_size"
+            android:layout_marginEnd="@dimen/rating_star_spacing"
+            android:src="@drawable/ic_star_filled"
+            app:tint="@color/rating_star"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_width="@dimen/rating_star_size"
+            android:layout_height="@dimen/rating_star_size"
+            android:layout_marginEnd="@dimen/rating_star_spacing"
+            android:src="@drawable/ic_star_border"
+            app:tint="@color/rating_star_border"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_width="@dimen/rating_star_size"
+            android:layout_height="@dimen/rating_star_size"
+            android:src="@drawable/ic_star_border"
+            app:tint="@color/rating_star_border"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+</merge>
