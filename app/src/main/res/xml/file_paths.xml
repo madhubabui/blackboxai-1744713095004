@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- WhatsApp Status Directory -->
+    <external-path
+        name="whatsapp_statuses"
+        path="WhatsApp/Media/.Statuses" />
+    
+    <!-- Saved Status Directory -->
+    <external-path
+        name="saved_statuses"
+        path="DCIM/Saver" />
+    
+    <!-- Recycle Bin Directory -->
+    <external-path
+        name="recycle_bin"
+        path="DCIM/Saver/.RecycleBin" />
+    
+    <!-- External Storage Root -->
+    <external-path
+        name="external_files"
+        path="." />
+</paths>
