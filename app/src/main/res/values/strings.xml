@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Saver</string>
+    
+    <!-- Main Screen -->
+    <string name="tab_images">Images</string>
+    <string name="tab_videos">Videos</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_recycle_bin">Recycle Bin</string>
+    
+    <!-- Status Actions -->
+    <string name="action_save">Save</string>
+    <string name="action_share">Share</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_restore">Restore</string>
+    
+    <!-- Batch Operations -->
+    <string name="batch_mode_title">%d Selected</string>
+    <string name="batch_save_success">%d items saved successfully</string>
+    <string name="batch_delete_success">%d items moved to Recycle Bin</string>
+    
+    <!-- Messages -->
+    <string name="msg_no_statuses">No statuses found</string>
+    <string name="msg_no_whatsapp">WhatsApp not found</string>
+    <string name="msg_save_success">Status saved successfully</string>
+    <string name="msg_save_error">Failed to save status</string>
+    <string name="msg_delete_success">Moved to Recycle Bin</string>
+    <string name="msg_restore_success">Status restored successfully</string>
+    
+    <!-- Permissions -->
+    <string name="permission_required">Storage Permission Required</string>
+    <string name="permission_rationale">Saver needs storage access to save WhatsApp statuses</string>
+    <string name="permission_denied">Storage permission denied. Please enable in settings.</string>
+    
+    <!-- Settings -->
+    <string name="title_settings">Settings</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_system">System Default</string>
+    <string name="settings_save_location">Save Location</string>
+    <string name="settings_about">About</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Welcome to Saver</string>
+    <string name="onboarding_desc_1">Save WhatsApp statuses with just one tap</string>
+    <string name="onboarding_title_2">Easy Organization</string>
+    <string name="onboarding_desc_2">Separate tabs for images and videos</string>
+    <string name="onboarding_title_3">Privacy First</string>
+    <string name="onboarding_desc_3">Works completely offline. Your data stays on your device.</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_finish">Get Started</string>
+    
+    <!-- Recycle Bin -->
+    <string name="title_recycle_bin">Recycle Bin</string>
+    <string name="msg_recycle_bin_empty">Recycle Bin is empty</string>
+    <string name="msg_auto_delete_info">Items will be automatically deleted after 24 hours</string>
+    
+    <!-- Dialogs -->
+    <string name="dialog_delete_title">Move to Recycle Bin?</string>
+    <string name="dialog_delete_message">Items can be restored within 24 hours</string>
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_cancel">Cancel</string>
+    
+    <!-- Disclaimer -->
+    <string name="disclaimer">Saver is not affiliated with WhatsApp. We respect your privacy.</string>
+    
+    <!-- Error Messages -->
+    <string name="error_generic">Something went wrong</string>
+    <string name="error_no_space">Not enough storage space</string>
+    <string name="error_file_not_found">File not found</string>
+    <string name="error_invalid_file">Invalid file format</string>
+</resources>
