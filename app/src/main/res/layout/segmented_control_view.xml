@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:parentTag="android.widget.FrameLayout">
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/toggleGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/segment_margin"
+        app:checkedButton="@id/segment1"
+        app:selectionRequired="true"
+        app:singleSelection="true">
+
+        <!-- Preview Segments -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/segment1"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/segment_height"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+            tools:text="Segment 1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/segment2"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/segment_height"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+            tools:text="Segment 2" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/segment3"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/segment_height"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+            tools:text="Segment 3" />
+
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+</merge>
