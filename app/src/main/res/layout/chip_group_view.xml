@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:parentTag="com.google.android.material.chip.ChipGroup">
+
+    <!-- Preview Chips -->
+    <com.saver.statussaver.presentation.view.ChipView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:chipText="Sample Chip 1"
+        app:showCloseButton="true"
+        app:chipBackgroundColor="@color/chip_background"
+        app:chipTextColor="@color/chip_text"
+        app:chipStrokeColor="@color/chip_stroke"
+        app:chipStrokeWidth="@dimen/chip_stroke_width"
+        tools:checked="true" />
+
+    <com.saver.statussaver.presentation.view.ChipView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:chipText="Sample Chip 2"
+        app:showCloseButton="true"
+        app:chipBackgroundColor="@color/chip_background"
+        app:chipTextColor="@color/chip_text"
+        app:chipStrokeColor="@color/chip_stroke"
+        app:chipStrokeWidth="@dimen/chip_stroke_width" />
+
+    <com.saver.statussaver.presentation.view.ChipView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:chipText="Sample Chip 3"
+        app:showCloseButton="true"
+        app:chipBackgroundColor="@color/chip_background"
+        app:chipTextColor="@color/chip_text"
+        app:chipStrokeColor="@color/chip_stroke"
+        app:chipStrokeWidth="@dimen/chip_stroke_width" />
+
+</merge>
