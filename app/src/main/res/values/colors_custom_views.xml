@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Rating Bar Colors -->
+    <color name="rating_star_filled">#FFC107</color>
+    <color name="rating_star_empty">#BDBDBD</color>
+    <color name="rating_text_color">#757575</color>
+
+    <!-- Segmented Control Colors -->
+    <color name="segment_selected_background">#2196F3</color>
+    <color name="segment_unselected_background">#FFFFFF</color>
+    <color name="segment_selected_text">#FFFFFF</color>
+    <color name="segment_unselected_text">#000000</color>
+    <color name="segment_stroke">#E0E0E0</color>
+    <color name="segment_disabled">#EEEEEE</color>
+
+    <!-- Chip Colors -->
+    <color name="chip_background">#F5F5F5</color>
+    <color name="chip_selected_background">#E3F2FD</color>
+    <color name="chip_text">#212121</color>
+    <color name="chip_selected_text">#1976D2</color>
+    <color name="chip_stroke">#BDBDBD</color>
+    <color name="chip_selected_stroke">#1976D2</color>
+    <color name="chip_icon_tint">#757575</color>
+    <color name="chip_close_icon_tint">#616161</color>
+
+    <!-- Badge Colors -->
+    <color name="badge_background">#F44336</color>
+    <color name="badge_text">#FFFFFF</color>
+    <color name="badge_stroke">#D32F2F</color>
+    <color name="badge_status_active">#4CAF50</color>
+    <color name="badge_status_warning">#FFC107</color>
+    <color name="badge_status_error">#F44336</color>
+
+    <!-- Common Colors -->
+    <color name="disabled_text">#9E9E9E</color>
+    <color name="disabled_background">#F5F5F5</color>
+    <color name="ripple_color">#1F000000</color>
+    <color name="divider">#EEEEEE</color>
+    <color name="shadow">#14000000</color>
+</resources>
