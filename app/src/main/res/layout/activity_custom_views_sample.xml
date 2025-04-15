@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_large">
+
+        <!-- Section Title Style -->
+        <TextView
+            style="@style/TextAppearance.App.Subtitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/spacing_medium"
+            android:text="@string/section_rating_bar"
+            android:textColor="?attr/colorPrimary" />
+
+        <!-- Rating Bar Demo -->
+        <com.saver.statussaver.presentation.view.RatingBarView
+            android:id="@+id/ratingBar"
+            style="@style/Widget.App.RatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/spacing_large"
+            app:maxRating="5"
+            app:rating="4.5"
+            app:showRatingText="true" />
+
+        <!-- Segmented Control Demo -->
+        <TextView
+            style="@style/TextAppearance.App.Subtitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/spacing_medium"
+            android:text="@string/section_segmented_control"
+            android:textColor="?attr/colorPrimary" />
+
+        <com.saver.statussaver.presentation.view.SegmentedControlView
+            android:id="@+id/segmentedControl"
+            style="@style/Widget.App.SegmentedControl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/spacing_large"
+            app:selectedSegment="0" />
+
+        <!-- Chip Group Demo -->
+        <TextView
+            style="@style/TextAppearance.App.Subtitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/spacing_medium"
+            android:text="@string/section_chip_group"
+            android:textColor="?attr/colorPrimary" />
+
+        <com.saver.statussaver.presentation.view.ChipGroupView
+            android:id="@+id/chipGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/spacing_large" />
+
+        <!-- Badge Demo -->
+        <TextView
+            style="@style/TextAppearance.App.Subtitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/spacing_medium"
+            android:text="@string/section_badges"
+            android:textColor="?attr/colorPrimary" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|center_vertical"
+            android:orientation="horizontal">
+
+            <!-- Count Badge -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/spacing_xlarge"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.saver.statussaver.presentation.view.BadgeView
+                    android:id="@+id/countBadge"
+                    style="@style/Widget.App.Badge"
+                    android:layout_marginBottom="@dimen/spacing_small"
+                    app:badgeType="count"
+                    app:maxCount="99" />
+
+                <TextView
+                    style="@style/TextAppearance.App.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/badge_type_count" />
+            </LinearLayout>
+
+            <!-- Status Badge -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.saver.statussaver.presentation.view.BadgeView
+                    android:id="@+id/statusBadge"
+                    style="@style/Widget.App.Badge"
+                    android:layout_marginBottom="@dimen/spacing_small"
+                    app:badgeType="status"
+                    app:status="active" />
+
+                <TextView
+                    style="@style/TextAppearance.App.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/badge_type_status" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
