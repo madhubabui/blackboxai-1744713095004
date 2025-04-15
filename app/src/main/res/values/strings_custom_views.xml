@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Section Titles -->
+    <string name="section_rating_bar">Rating Bar</string>
+    <string name="section_segmented_control">Segmented Control</string>
+    <string name="section_chip_group">Filter Chips</string>
+    <string name="section_badges">Badges</string>
+
+    <!-- Rating Bar -->
+    <string name="rating_format">%.1f/%d</string>
+    <string name="rating_content_description">Rating: %1$.1f out of %2$d stars</string>
+
+    <!-- Segmented Control -->
+    <string name="segment_content_description">%1$s segment</string>
+    <string name="segment_selected_content_description">%1$s segment selected</string>
+    <string name="segment_unselected_content_description">%1$s segment unselected</string>
+    
+    <!-- Time Periods -->
+    <string-array name="time_periods">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+    </string-array>
+
+    <!-- Chip -->
+    <string name="chip_close_button_content_description">Remove %1$s</string>
+    <string name="chip_selected_content_description">%1$s selected</string>
+    <string name="chip_unselected_content_description">%1$s unselected</string>
+    <string name="chip_photos">Photos</string>
+    <string name="chip_videos">Videos</string>
+    <string name="chip_add_more">Add More</string>
+
+    <!-- Badge -->
+    <string name="badge_count_content_description">%1$d items</string>
+    <string name="badge_status_active_content_description">Active status</string>
+    <string name="badge_status_warning_content_description">Warning status</string>
+    <string name="badge_status_error_content_description">Error status</string>
+    <string name="badge_type_count">Count Badge</string>
+    <string name="badge_type_status">Status Badge</string>
+
+    <!-- Common -->
+    <string name="selected">Selected</string>
+    <string name="unselected">Unselected</string>
+    <string name="active">Active</string>
+    <string name="inactive">Inactive</string>
+    <string name="warning">Warning</string>
+    <string name="error">Error</string>
+    
+    <!-- Activity Titles -->
+    <string name="title_custom_views_sample">Custom Views Demo</string>
+    <string name="menu_custom_views">Custom Views</string>
+</resources>
