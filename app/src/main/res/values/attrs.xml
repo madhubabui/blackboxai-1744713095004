@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ProgressBarView -->
+    <declare-styleable name="ProgressBarView">
+        <attr name="showPercentage" format="boolean" />
+        <attr name="maxProgress" format="integer" />
+        <attr name="animationDuration" format="integer" />
+        <attr name="progressTint" format="color" />
+        <attr name="progressBackgroundTint" format="color" />
+        <attr name="progressMessage" format="string" />
+    </declare-styleable>
+
+    <!-- CustomTabLayout -->
+    <declare-styleable name="CustomTabLayout">
+        <attr name="tabTextAppearance" format="reference" />
+        <attr name="tabSelectedTextColor" format="color" />
+        <attr name="tabUnselectedTextColor" format="color" />
+        <attr name="tabIndicatorColor" format="color" />
+        <attr name="tabIndicatorHeight" format="dimension" />
+        <attr name="tabPadding" format="dimension" />
+    </declare-styleable>
+
+    <!-- StatusGridView -->
+    <declare-styleable name="StatusGridView">
+        <attr name="spanCount" format="integer" />
+        <attr name="itemSpacing" format="dimension" />
+        <attr name="showSelection" format="boolean" />
+    </declare-styleable>
+
+    <!-- EmptyStateView -->
+    <declare-styleable name="EmptyStateView">
+        <attr name="emptyIcon" format="reference" />
+        <attr name="emptyTitle" format="string" />
+        <attr name="emptyMessage" format="string" />
+        <attr name="emptyActionText" format="string" />
+    </declare-styleable>
+
+    <!-- CustomToolbarView -->
+    <declare-styleable name="CustomToolbarView">
+        <attr name="toolbarTitle" format="string" />
+        <attr name="showBackButton" format="boolean" />
+        <attr name="showActionButton" format="boolean" />
+        <attr name="actionIcon" format="reference" />
+    </declare-styleable>
+
+    <!-- StatusItemView -->
+    <declare-styleable name="StatusItemView">
+        <attr name="itemType" format="enum">
+            <enum name="image" value="0" />
+            <enum name="video" value="1" />
+        </attr>
+        <attr name="selectable" format="boolean" />
+        <attr name="selected" format="boolean" />
+    </declare-styleable>
+
+    <!-- VideoThumbnailView -->
+    <declare-styleable name="VideoThumbnailView">
+        <attr name="showDuration" format="boolean" />
+        <attr name="showPlayButton" format="boolean" />
+        <attr name="thumbnailScaleType" format="enum">
+            <enum name="centerCrop" value="0" />
+            <enum name="fitCenter" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!-- LoadingOverlayView -->
+    <declare-styleable name="LoadingOverlayView">
+        <attr name="overlayBackgroundAlpha" format="float" />
+        <attr name="loadingAnimation" format="reference" />
+        <attr name="loadingMessage" format="string" />
+    </declare-styleable>
+
+    <!-- SearchBarView -->
+    <declare-styleable name="SearchBarView">
+        <attr name="searchHint" format="string" />
+        <attr name="showFilter" format="boolean" />
+        <attr name="showSuggestions" format="boolean" />
+    </declare-styleable>
+
+    <!-- OptionsBottomSheetView -->
+    <declare-styleable name="OptionsBottomSheetView">
+        <attr name="sheetTitle" format="string" />
+        <attr name="sheetSubtitle" format="string" />
+        <attr name="showDivider" format="boolean" />
+    </declare-styleable>
+
+    <!-- ConfirmationDialogView -->
+    <declare-styleable name="ConfirmationDialogView">
+        <attr name="dialogIcon" format="reference" />
+        <attr name="dialogTitle" format="string" />
+        <attr name="dialogMessage" format="string" />
+        <attr name="confirmText" format="string" />
+        <attr name="cancelText" format="string" />
+        <attr name="isDangerous" format="boolean" />
+    </declare-styleable>
+
+    <!-- BadgeView -->
+    <declare-styleable name="BadgeView">
+        <attr name="maxCount" format="integer" />
+        <attr name="badgeType" format="enum">
+            <enum name="count" value="0" />
+            <enum name="status" value="1" />
+        </attr>
+        <attr name="status" format="enum">
+            <enum name="none" value="0" />
+            <enum name="active" value="1" />
+            <enum name="warning" value="2" />
+            <enum name="error" value="3" />
+        </attr>
+        <attr name="badgeColor" format="color" />
+        <attr name="badgeTextColor" format="color" />
+        <attr name="badgeMinWidth" format="dimension" />
+        <attr name="badgeMinHeight" format="dimension" />
+        <attr name="badgePadding" format="dimension" />
+        <attr name="badgeTextSize" format="dimension" />
+        <attr name="badgeElevation" format="dimension" />
+    </declare-styleable>
+
+    <!-- ChipView -->
+    <declare-styleable name="ChipView">
+        <attr name="chipText" format="string" />
+        <attr name="chipIcon" format="reference" />
+        <attr name="showCloseButton" format="boolean" />
+        <attr name="isChipSelected" format="boolean" />
+        <attr name="chipBackgroundColor" format="color" />
+        <attr name="chipTextColor" format="color" />
+        <attr name="chipIconTint" format="color" />
+        <attr name="chipCloseIconTint" format="color" />
+        <attr name="chipStrokeColor" format="color" />
+        <attr name="chipStrokeWidth" format="dimension" />
+        <attr name="chipMinHeight" format="dimension" />
+        <attr name="chipPadding" format="dimension" />
+    </declare-styleable>
+
+    <!-- ChipGroupView -->
+    <declare-styleable name="ChipGroupView">
+        <attr name="singleSelection" format="boolean" />
+        <attr name="chipSpacing" format="dimension" />
+        <attr name="singleLine" format="boolean" />
+        <attr name="flowAlignment" format="enum">
+            <enum name="start" value="0" />
+            <enum name="center" value="1" />
+            <enum name="end" value="2" />
+        </attr>
+        <attr name="maxChips" format="integer" />
+        <attr name="chipGroupPadding" format="dimension" />
+    </declare-styleable>
+
+    <!-- RatingBarView -->
+    <declare-styleable name="RatingBarView">
+        <attr name="maxRating" format="integer" />
+        <attr name="rating" format="float" />
+        <attr name="isEditable" format="boolean" />
+        <attr name="showRatingText" format="boolean" />
+        <attr name="starSize" format="dimension" />
+        <attr name="starColor" format="color" />
+        <attr name="starPadding" format="dimension" />
+        <attr name="ratingTextAppearance" format="reference" />
+        <attr name="ratingTextColor" format="color" />
+        <attr name="stepSize" format="float" />
+        <attr name="ratingStyle" format="enum">
+            <enum name="small" value="0" />
+            <enum name="normal" value="1" />
+            <enum name="large" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <!-- SegmentedControlView -->
+    <declare-styleable name="SegmentedControlView">
+        <attr name="segments" format="reference" />
+        <attr name="selectedSegment" format="integer" />
+        <attr name="segmentHeight" format="dimension" />
+        <attr name="segmentColor" format="color" />
+        <attr name="selectedTextColor" format="color" />
+        <attr name="unselectedTextColor" format="color" />
+        <attr name="segmentTextAppearance" format="reference" />
+        <attr name="segmentCornerRadius" format="dimension" />
+        <attr name="segmentStrokeWidth" format="dimension" />
+        <attr name="segmentStrokeColor" format="color" />
+        <attr name="segmentMargin" format="dimension" />
+        <attr name="segmentPadding" format="dimension" />
+    </declare-styleable>
+</resources>
