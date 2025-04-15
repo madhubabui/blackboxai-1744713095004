@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:parentTag="android.widget.FrameLayout">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:fadeScrollbars="true"
+            android:paddingHorizontal="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="88dp"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbars="vertical"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:spanCount="2"
+            tools:itemCount="6"
+            tools:listitem="@layout/status_item_view" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <!-- Empty State View -->
+    <com.saver.statussaver.presentation.view.EmptyStateView
+        android:id="@+id/emptyStateView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <!-- Loading Shimmer -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/shimmerRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingHorizontal="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="88dp"
+        android:visibility="gone"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="2"
+        tools:itemCount="6"
+        tools:listitem="@layout/shimmer_thumbnail_view"
+        tools:visibility="gone" />
+
+    <!-- Selection Action Bar -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/selectionActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="16dp"
+        android:visibility="gone"
+        app:cardBackgroundColor="?attr/colorSurface"
+        app:cardCornerRadius="28dp"
+        app:cardElevation="4dp"
+        tools:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingHorizontal="8dp">
+
+            <!-- Selection Count -->
+            <TextView
+                android:id="@+id/selectionCountText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+                tools:text="3 Selected" />
+
+            <!-- Save Action -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/saveButton"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save"
+                android:textColor="?attr/colorPrimary" />
+
+            <!-- Share Action -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/shareButton"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/share"
+                android:textColor="?attr/colorPrimary" />
+
+            <!-- Delete Action -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/deleteButton"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/delete"
+                android:textColor="?attr/colorError" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</merge>
